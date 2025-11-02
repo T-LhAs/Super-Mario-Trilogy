@@ -590,6 +590,7 @@
 }
 .fa-trophy:before {
   content: "\f091";
+  font-size: 60px;
 }
 .fa-github-square:before {
   content: "\f092";
@@ -669,6 +670,7 @@
 }
 .fa-globe:before {
   content: "\f0ac";
+  font-size: 60px;
 }
 .fa-wrench:before {
   content: "\f0ad";

@@ -51,18 +51,18 @@ a {
 }
 
 a:hover, a:active, a:focus {
-	color:#F5514B;
+	color:#Ff0000;
 	text-decoration: none;
 	outline: none;
 }
 
 ::selection {
- background:#F5514B;
+ background:#Ff0000;
  color:#FFF;
 }
 
 ::-moz-selection {
- background:#F5514B;
+ background:#Ff0000;
  color:#FFF;
 }
 
@@ -132,7 +132,7 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 	bottom:30px;
 	right:15px;
 	display:none;
-	background:rgba(126, 193, 63, .8);
+	background:#bb0000;
 	text-align: center;
 }
 
@@ -144,7 +144,7 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 }
 
 .scrollup:hover {
-	background:rgba(126, 193, 63, .9);
+	background:#e10000;
 }
 
 .section {
@@ -168,6 +168,7 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 	font-size: 29px;
 	line-height: 32px;
 	text-transform: uppercase;
+	color: #fff;
 }
 
 .title-box h2:before {
@@ -183,11 +184,11 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 }
 
 .title-box.white h2.title:before {
-	background:#444444;
+	background:#fff;
 }
 
 .title-box.white h2.title {
-	color:#444444;
+	color:#fff;
 }
 
 .title-box.text-center h2:before {
@@ -295,8 +296,8 @@ section {
 
 .btn-white:hover, .btn-white:focus {
 	color: #FFF;
-	background: #F5514B;
-	border-color:#F5514B;
+	background: #Ff0000;
+	border-color:#Ff0000;
 }
 
 
@@ -307,8 +308,8 @@ section {
 }
 
 .btn-green {
-	background:#F5514B;
-	border-color: #F5514B;
+	background:#Ff0000;
+	border-color: #Ff0000;
 	color:#FFF;
 }
 
@@ -326,8 +327,8 @@ section {
 
 .btn-gray-border:hover, .btn-gray-border:focus {
 	color: #FFF;
-	background:#F5514B;
-	border-color:#F5514B;
+	background:#Ff0000;
+	border-color:#Ff0000;
 }
 
 /*-----------------------------------------------------------------*/
@@ -836,7 +837,7 @@ section {
 }
 
 .flex-prev {
-	color: #333;
+	color: #fff;
 	font-size: 40px;
 	height: 40px;
 	left: 20px;
@@ -854,7 +855,7 @@ section {
 }
 
 .flex-next {
-	color: #333;
+	color: #fff;
 	font-size: 40px;
 	height: 40px;
 	right: 0px;
@@ -979,6 +980,7 @@ html[xmlns] .slides {
 
 .features-icon-box {
 	margin-bottom:50px;
+	color: #fff;
 }
 
 .features-icon-box .features-icon {
@@ -987,12 +989,24 @@ html[xmlns] .slides {
 	height: 60px;
 	line-height: 41px;
 	font-size: 45px;
-	color:#c13f3f;
+	color:#Ff0000;
 }
 
 .features-icon-box .features-info {
 	margin-left: 80px;
+	color:#fff000;
+	color:#fff000;
 }
+
+.features-icon-box .features-info h4 {
+	color: #fff;
+}
+
+.features-icon-box .features-info p {
+	margin-bottom:0;
+	color: #fff;
+}
+
 
 
 /*-----------------------------------------------------------------*/
@@ -1041,7 +1055,7 @@ html[xmlns] .slides {
 .content-tab-1 > .nav > li {
 	float: none;
 	display: inline-block;
-	border: 2px solid #B1AEAE;
+	border: 2px solid #fff;
 	padding: 3px 20px;
 	box-shadow: 0px 0px 2px #F2F2F2;
 	margin-bottom: 5px;
@@ -1054,14 +1068,14 @@ html[xmlns] .slides {
 }
 
 .content-tab-1 > .nav li > a > i {
-	color: #474846;
+	color: #fff;
 	font-size: 35px;
 	margin-bottom: 10px;
 }
 
 .content-tab-1 > .nav > li > a > h4 {
 	display: block;
-	color: #4D3F3F;
+	color: #fff;
 	font-size: 16px;
 	margin-bottom: 0px;
 }
@@ -1071,12 +1085,13 @@ html[xmlns] .slides {
 }
 
 .content-tab-1 > .nav > li.active {
-    border: 2px solid #c13f3f;
-    background: #c13f3f;
+    border: 2px solid #Ff0000;
+    background: #Ff0000;
 }
 
 .tab-content-main {
 	padding: 70px 0px 0px;
+	color: #fff;
 }
 
 .tab-content-main img {
@@ -1086,13 +1101,14 @@ html[xmlns] .slides {
 
 .tab1-features {
 	margin-bottom:30px;
+	color:#fff;
 }
 
 .tab1-features .icon {
 	position: absolute;
 	width: 40px;
 	height: 40px;
-	background: #F5514B ;
+	background: #Ff0000 ;
 	color: #FFF;
 	text-align: center;
 	line-height: 35px;
@@ -1107,14 +1123,24 @@ html[xmlns] .slides {
 }
 
 .tab1-features:hover .icon {
-	border-color:#F5514B;
-	color:#F5514B;
+	border-color:#Ff0000;
+	color:#Ff0000;
 	background:transparent;
 }
 
 .tab1-features .info {
 	margin-left: 60px;
+	color: #fff;
 }
+
+.tab1-features .info h4 {
+	color: #fff;
+}
+
+.tab1-features .info p {
+	color: #fff;
+}
+
 
 .tab-carousel.owl-theme .owl-controls {
 	text-align: center;
@@ -1131,7 +1157,7 @@ html[xmlns] .slides {
 	font-size:20px;
 	border-radius:0;
 	opacity:1;
-	background:#c13f3f;
+	background:#Ff0000;
 	position: absolute;
 	margin: 0;
 }
@@ -1165,10 +1191,12 @@ html[xmlns] .slides {
 }
 
 .tab2-services-box .services-info h4 {
+	color: #fff;
 }
 
 .tab2-services-box .services-info p {
 	margin-bottom:0;
+	color: #fff;
 }
 
 .features-tab3 {
@@ -1193,10 +1221,10 @@ html[xmlns] .slides {
 	height: 55px;
 	line-height: 55px;
 	text-align: center;
-	color: #c13f3f;
+	color: #Ff0000;
 	font-size: 22px;
 	font-weight: 600;
-	border: 1px solid #c13f3f;
+	border: 1px solid #Ff0000;
 	position: relative;
 	border-radius: 28px;
 	transition: all 0.7s ease-in-out 0s;
@@ -1204,8 +1232,8 @@ html[xmlns] .slides {
 
 .features-tab3 .features-left .features-item:hover .features-icon, .features-tab3 .features-right .features-item:hover .features-icon {
 	color:#FFF;
-	border-color:#c13f3f;
-	background:#c13f3f;
+	border-color:#Ff0000;
+	background:#Ff0000;
 }
 
 .features-tab3 .features-left .features-icon {
@@ -1216,14 +1244,30 @@ html[xmlns] .slides {
 	float:left;
 }
 
-.features-tab3 .features-left .features-info {
+.features-tab3 .features-left .features-info  {
 	text-align: right;
 	margin-right: 90px;
 }
 
-.features-tab3 .features-right .features-info {
+.features-tab3 .features-left .features-info h4  {
+    color: #fff;
+}
+
+.features-tab3 .features-left .features-info p  {
+    color: #fff;
+}
+
+.features-tab3 .features-right .features-info  {
 	text-align: left;
 	margin-left: 90px;
+}
+
+.features-tab3 .features-right .features-info h4 {
+	color: #fff;
+}
+
+.features-tab3 .features-right .features-info p {
+	color: #fff;
 }
 
 .tab4-services-box {
@@ -1235,10 +1279,10 @@ html[xmlns] .slides {
 	text-align: center;
 	font-size: 47px;
 	display: inline-block;
-	color: #c13f3f;
+	color: #Ff0000;
 	width: 100px;
 	height: 100px;
-	border: 1px solid #c13f3f;
+	border: 1px solid #Ff0000;
 	line-height: 100px;
 	border-radius: 50%;
 	margin-bottom: 20px;
@@ -1251,16 +1295,23 @@ html[xmlns] .slides {
 
 .tab4-services-box .info {
 	margin-top:20px;
+	color: #fff;
 }
 
 .tab4-services-box .info h4 {
 	margin-bottom:14px;
+	color: #fff;
+}
+
+.tab4-services-box .info p {
+	margin-bottom:14px;
+	color: #fff;
 }
 
 .tab4-services-box:hover .icon {
-	background:#c13f3f;
+	background:#Ff0000;
 	color:#FFF;
-	border-color:#c13f3f;
+	border-color:#Ff0000;
 }
 
 .core-features .list {
@@ -1471,7 +1522,7 @@ ul.timeline {
     transition: all 0.25s linear 0s;
     padding: 20px 24px;
     margin-bottom: 15px;
-    color: #5C5C5C;
+    color: #fff;
     font-weight:600;
     font-size: 14px;
     border: 2px solid #B1AEAE;
@@ -1483,8 +1534,8 @@ ul.timeline {
 
 .filter.active, .filter:hover {
 	color:#FFF;
-	background:#c13f3f;
-	border-color:#c13f3f;
+	background:#Ff0000;
+	border-color:#Ff0000;
 }
 
 .work-main {
@@ -1609,7 +1660,7 @@ ul.timeline {
 
 #team {
 	padding:100px 0px 130px;
-	background: #FFF;
+	background: #444444;
 }
 
 .team-items {
@@ -1685,8 +1736,8 @@ ul.timeline {
 }
 
 .socials ul li a:hover {
-	background:#c13f3f;
-	border-color:#c13f3f;
+	background:#Ff0000;
+	border-color:#Ff0000;
 	color:#FFF;
 }
 
@@ -1801,7 +1852,7 @@ ul.timeline {
 	border-radius: 50%;
 	display: inline-block;
 	margin: 0px auto;
-	background: #c13f3f none repeat scroll 0% 0%;
+	background: #Ff0000 none repeat scroll 0% 0%;
 }
 
 .services-box .services-desc {
@@ -1843,7 +1894,7 @@ ul.timeline {
 }
 
 .tabs .nav-tabs li.active a {
-	border-top: 2px solid #c13f3f;
+	border-top: 2px solid #Ff0000;
 	background: #FFF;
 	color: #272727;
 	font-weight: 700;
@@ -1882,10 +1933,10 @@ ul.timeline {
 	margin-right:5px;
 }
 
-.panel-title {
+.panel-title h2 {
 	font-size: 16px;
 	font-weight: 600;
-	color: #272727;
+	color: #fff;
 	text-transform: none;
 }
 
@@ -1965,7 +2016,7 @@ ul.timeline {
 .video-caption:hover .video-icon{
 	background:#FFF;
 	border-color:#FFF;
-	color:#c13f3f;
+	color:#Ff0000;
 }
 
 .video-caption .video-caption-info {
@@ -2086,8 +2137,8 @@ ul.timeline {
 }
 
 #testimonials .owl-controls .owl-page.active span {
-	background:#c13f3f;
-	border-color:#c13f3f;
+	background:#Ff0000;
+	border-color:#Ff0000;
 }
 
 /*-----------------------------------------------------------------*/
@@ -2213,7 +2264,7 @@ ul.timeline {
 	font-size:20px;
 	border-radius:0;
 	opacity:0.9;
-	background:#c13f3f;
+	background:#Ff0000;
 	position: absolute;
 }
 
@@ -2226,7 +2277,7 @@ ul.timeline {
 }
 
 #featured-works .owl-prev:hover, #featured-works .owl-next:hover {
-	background:#c13f3f;
+	background:#Ff0000;
 	opacity:1;
 }
 
@@ -2289,7 +2340,7 @@ ul.timeline {
 }
 
 .breadcrumb ul li a:hover {
-	color:#F5514B;
+	color:#Ff0000;
 }
 
 .breadcrumb ul li.current a {
@@ -2297,7 +2348,7 @@ ul.timeline {
 }
 
 .breadcrumb ul li.current a:hover {
-	color: #c13f3f;
+	color: #Ff0000;
 }
 
 .work-detail .btn {
@@ -2356,7 +2407,7 @@ ul.timeline {
 	font-size:20px;
 	border-radius:0;
 	opacity:0.8;
-	background:#c13f3f;
+	background:#Ff0000;
 	position: absolute;
 }
 
@@ -2370,7 +2421,7 @@ ul.timeline {
 
 #single-work-slider .owl-prev:hover, #single-work-slider .owl-next:hover {
 	opacity:1;
-	background:#c13f3f;
+	background:#Ff0000;
 }
 
 #single-work-slider .item img {
@@ -2481,7 +2532,7 @@ blockquote {
 	text-align: justify;
 	color: #929292;
 	letter-spacing: 0.1px;
-	border-left: 5px solid #F5514B;
+	border-left: 5px solid #Ff0000;
 }
 
 blockquote a {
@@ -2610,7 +2661,7 @@ li.comment ol.comment-sub {
 .comment-list ol .comment-name a.comment-reply {
 	font-size: 13px;
 	font-weight: 600;
-	color: rgb(126, 193, 63);
+	color: #00e100;
 }
 
 .comment-list ol .comment-desc {
@@ -2682,7 +2733,7 @@ li.comment ol.comment-sub {
 }
 
 .post-categories a:hover {
-	color:#c13f3f;
+	color:#Ff0000;
 }
 
 .sidebar-widget {
@@ -2698,7 +2749,7 @@ li.comment ol.comment-sub {
 }
 
 .sidebar-widget a:hover {
-	color:#c13f3f;
+	color:#Ff0000;
 }
 
 .sidebar-widget img {
@@ -2708,7 +2759,7 @@ li.comment ol.comment-sub {
 }
 
 .sidebar-widget p.date {
-	color: #333;
+	color: #fff;
 	font-weight: 600;
 	font-size: 13px;
 }
@@ -2741,7 +2792,7 @@ li.comment ol.comment-sub {
 }
 
 .tags a:hover {
-	background:#F5514B;
+	background:#Ff0000;
 	color:#FFF;
 	border: 1px solid #ccc;
 }
